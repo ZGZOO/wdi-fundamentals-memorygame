@@ -46,9 +46,13 @@ p {
 	text-transform: uppercase;
 }
 
-.linktome {
+main a {
 	text-decoration: none;
 	color: black;
+}
+
+main a:hover {
+	border-bottom: 2px solid black;
 }
 
 main {
